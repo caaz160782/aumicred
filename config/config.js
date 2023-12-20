@@ -9,6 +9,17 @@ const configApi = {
     password: process.env.MYSQL_PASS ,
     database: process.env.MYSQL_DB,
 },
+mysqlService: {
+    host: process.env.MYSQL_SRV_HOST ,
+    port: process.env.MYSQL_SRV_PORT,
+},
+post:{
+    port: process.env.POST_PORT ,
+},
+cacheService:{
+    host: process.env.MYSQL_SRV_HOST ,
+    port: process.env.MYSQL_SRV_PORT,
+}
 };
 
 module.exports = configApi;
